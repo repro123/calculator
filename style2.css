@@ -119,6 +119,7 @@ main {
   justify-content: center;
   width: min(100%, 375px);
   margin-top: auto;
+  border: 1px solid red;
 }
 .calculator {
   width: 100%;
