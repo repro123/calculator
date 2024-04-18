@@ -118,6 +118,7 @@ main {
   align-items: center;
   justify-content: center;
   width: min(100%, 375px);
+  margin-top: auto;
 }
 .calculator {
   width: 100%;
@@ -157,9 +158,7 @@ button {
 button:hover {
   background-color: hsl(0, 0%, 20%);
 }
-button:focus {
-  background-color: hsl(0, 0%, 50%);
-}
+
 svg path {
   fill: rgb(255, 96, 27);
 }
